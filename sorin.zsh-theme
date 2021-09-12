@@ -30,8 +30,8 @@
 
 _prompt_sorin_vimode() {
   case ${KEYMAP} in
-    vicmd) print -n ' %B%F{2}❮%F{3}❮%F{1}❮%b' ;;
-    *) print -n ' %B%F{1}❯%F{3}❯%F{2}❯%b' ;;
+    vicmd) print -n ' %B%F{1}❮%b' ;;
+    *) print -n ' %B%F{6}❯%b' ;;
   esac
 }
 
